@@ -324,9 +324,7 @@ def get_dish(message):
                      reply_markup=keyboard)
 
     # обрабатываем дальнейшее действие получения массы
-    global restart_flag
-    if not restart_flag:
-        bot.register_next_step_handler(message, get_mass)
+    bot.register_next_step_handler(message, get_mass)
     restart_flag = False
 
 
@@ -362,6 +360,7 @@ def callback_worker(call):
         return
 
     # дальнейшее взаимодействие с пользователем
+    restart_flag = False
     bot.send_message(call.message.chat.id, 'Напишите массу в граммах')
 
 
