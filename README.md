@@ -1,11 +1,12 @@
 # NutritionBot
-Телеграм бот, который по названию блюда и его массе возвращает excel таблицу его ингридиентов и подведенный итог по количеству белков, жиров, углеводов и килокалорий в каждом из них. Бот может быть полезен людям, придерживающимся здорового образа жизни и правильного питания. Бот может помочь в поддержке дневника питания или выборе более подходящего (с точки зрения химического состава) блюда 
 
-Бот не работает на постоянной основе, работает только на локальной машине при запуске обслуживающей его программы
+A telegram bot that, based on the name of the dish and its mass, returns an Excel table of its ingredients and a summary of the amount of proteins, fats, carbohydrates and kilocalories in each of them. The bot can be useful for people who adhere to a healthy lifestyle and proper nutrition. The bot can help you maintain a food diary or choose a more suitable (in terms of chemical composition) dish.
 
-Для корректной работы программы не оюходимо поместить в файл api_keys.json API ключи для Яндекс переводчика, USDA и бота в телеграме
+The bot does not work on a permanent basis; it only works on the local machine when the program that serves it is launched.
 
-Бот использует материалы с ресурса eda.ru, обращения к API Яндекс переводчика, USDA, telebot
+For the program to work correctly, you must place the API keys for Yandex translator, USDA and telegram bot in the api_keys.json file.
 
-Видео с демонстрацией доступно по ссылке: https://drive.google.com/file/d/1few3v3_uY5673wjuU4TB_ZxJ0CAalfk0/view?usp=sharing
-(заранее прошу прощение за качество звука)
+The bot uses materials from the eda.ru resource, calls to the Yandex translator API, USDA, telebot.
+
+A video demonstration is available at: https://drive.google.com/file/d/1few3v3_uY5673wjuU4TB_ZxJ0CAalfk0/view?usp=sharing
+(obsolete)
